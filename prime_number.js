@@ -4,16 +4,20 @@
 
 
 
-let num = 7;
-    let count =1;
-    for (let i=0; i<num; i--) {
+    let num = 7;
+    let count =0;
+    for (let i=1; i<=num; i++) {
         if (num%i == 0) {
             count++
         }
     }
 
-    if (count<2) {
-        console.log("Yes")}
-          else{
-      console.log("No")
-          }
+    if (count==2) {
+        console.log("Yes")
+    }
+    else {
+        console.log("No")
+    }
+
+
+ // I hope this works...
